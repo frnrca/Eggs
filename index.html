@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Eggs</title>
+	<link rel="stylesheet" href="./lib/bootstrap-4.4.1/dist/css/bootstrap.css">
+	<link href="./css/style.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Inria+Serif&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
+	<link rel="icon" href="images/favicon.ico" />
+</head>
+<body>
+	<header>
+		<a href=index.html><img src="./images/eggs.png" class="logo" alt="" /></a>
+			<nav class="navbar navbar-expand navbar-dark bg-dark">
+				<div class="collapse navbar-collapse" id="navbarNav">
+					<ul class="navbar-nav mx-auto">
+						<li class="nav-item active">
+						    <a class="nav-link" href="./index.html">Home<span class="sr-only">(current)</span></a>
+						</li>
+						<li class="nav-item">
+						    <a class="nav-link" href="./recipes.html">Recipes</a>
+						</li>
+						    <li class="nav-item">
+						<a class="nav-link" href="./gallery.html">Gallery</a>
+						    </li>
+					</ul>
+				</div>
+			</nav>
+	</header>
+	<section class="container-fluid video-bg d-none d-md-block">
+			<div class="overlay"></div>
+		  		<video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+		    		<source src="./videos/eggs.mp4" type="video/mp4">
+		 		</video>
+			  	<div class="container h-100" id="video-bg">
+			   		<div class="d-flex h-100 text-center align-items-center">
+			      		<div class="w-100 text-white">
+			       			<h1 class="display-3">Eggs</h1>
+			        		<p class="lead mb-0">The egg website</p>
+			     		</div>
+			    	</div>
+				</div>
+	</section>
+	<section class="container text-grey">
+		<div class="row">
+			<div class="col-12 col-lg-6">
+				<div class="col-12">
+					<h1 class="col-12">Find the best egg recipes</h1>
+				<p class="col-12">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+				<div class="col-12">
+					<a href="./recipes.html" class="btn btn-danger btn-lg active" role="button" aria-pressed="true">Recipes</a>
+				</div>
+					
+				</div>
+			</div>
+			<div class="col-12 col-lg-6">
+				<img class="egg-img" src="./images/egg-recipe.jpg" alt="">
+			</div>
+		</div>
+	</section>
+	<div class="bg-dark">
+		<section class="container text-white">
+			<div class="row">
+				<div class="col-12 col-lg-6">
+						<img class="egg-img" src="./images/egg-gallery.jpg" alt="">
+				</div>
+				<div class="col-12 col-lg-6">
+					<h1 class="col-12">Find the best egg pictures</h1>
+					<p class="col-12">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+					<div class="col-12">
+						<a href="./gallery.html" class="btn btn-danger btn-lg active" role="button" aria-pressed="true">Gallery</a>
+					</div>
+				</div>
+			</div>	
+		</section>
+	</div>
+	<section id="egg-animation">
+		<img class="egg-bg" src="./images/egg-bg.jpg" alt="">
+		<img class="egg-animation" src="./images/egg-animation.png" alt="">
+	</section>
+	<footer class="bg-dark">
+		<p>Camille Fournier</p>
+	</footer>
+	<script src="./lib/jquery/jquery-3.4.1.js"></script>
+	<script src="./lib/bootstrap-4.4.1/dist/js/bootstrap.bundle.js"></script>
+	<script src="./javascript/script.js"></script>
+</body>

@@ -1,0 +1,214 @@
+html {
+	font-size: 100%;
+}
+
+body{
+	background-color: #ffedf0;
+	font-family: 'Inria Serif', serif;
+}
+
+h1{
+	margin-bottom: 0.5em;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+.logo{
+	width: 50%;
+	display: block;
+	margin: auto;
+}
+
+.navbar{
+	padding-left: 0px;
+	padding-right: 0px;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+.text-grey{
+	margin: auto;
+	padding-top: 4em;
+	padding-bottom: 4em;
+	color: #303030;
+}
+
+.text-white{
+	margin: auto;
+	padding-top: 4em;
+	padding-bottom: 4em;
+	color: white;
+}
+
+.video-bg {
+  position: relative;
+  background-color: black;
+  height: 75vh;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+section video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+section #video-bg {
+  position: relative;
+  z-index: 2;
+}
+
+.overlay {
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 1;
+}
+
+.egg-img{
+	max-width: 80%;
+	height: auto;
+	display: block;
+	margin: auto;
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+
+#egg-animation {
+	width: 100%;
+	height: auto;
+    background-color: black;
+    overflow: hidden;
+}
+
+.egg-bg{
+	width:100%;
+   	opacity: 0.6;
+   	z-index: 1;
+   	position: relative;
+}
+
+.egg-animation{
+	z-index: 2;
+	position: absolute;
+	width : 30%;
+	height: auto;
+	left : 35%;
+	margin-top: 2%;
+}
+
+.egg-animation:hover {
+	transform: rotate(360deg);
+	transition: all 1s ease-out 0s;
+}
+
+footer{
+	width: 100%;
+	height: 4em;
+}
+
+footer p{
+	text-align: center;
+	color: white;
+	padding-top: 20px;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+.shuffle-img{
+	display: flex;
+}
+
+.gallery{
+	width: 100%;
+	height: auto;
+}
+
+/*small*/
+@media (min-width : 576px) {
+
+.logo{
+	width: 50%;
+	display: block;
+	margin: auto;
+}
+
+#g3 {
+	display: block;
+	margin: auto;
+	width: 50%;
+	height: auto;
+}
+
+.card{
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
+
+.thumbnail{
+	width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+/*medium*/
+@media (min-width : 768px) {
+
+.logo{
+	width: auto;
+	display: block;
+	margin: auto;
+}
+
+#g3 {
+	display: block;
+	margin: auto;
+	width: 50%;
+	height: auto;
+}
+
+.button-gallery{
+	margin : 1em;
+}
+
+
+/*large*/
+@media (min-width: 992px){
+
+.logo{
+	width: auto;
+	display: block;
+	margin: auto;
+}
+.egg-img{
+	max-width: 100%;
+	height: auto;
+	display: block;
+	margin: auto;
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+
+#g3 {
+	width: 100%;
+	height: auto;
+}
+
+}
